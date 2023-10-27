@@ -1,0 +1,8 @@
+flask
+flask-LoginManager
+flask-login
+flask_sqlalchemy
+python-dotenv
+mysql-connector-python
+pymysql
+Werkzeug==2.3.0

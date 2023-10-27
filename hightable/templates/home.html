@@ -1,0 +1,57 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} 
+
+{% block content %}
+<a target="_blank" href="/photo-gallery">
+    <div class="gallery">
+      <h2>Gallery</h2>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </a>
+  <div class="content">
+    <div>
+    <a target="_blank" href="/job-listing">
+      <div class="jobs">
+        <h2>Jobs</h2>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </a>
+    <a target="_blank" href="/calendar">
+      <div class="jobs">
+        <h2>Calendar</h2>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </a>
+    </div>
+    <div class="na">
+      <a target="_blank" href="/news">
+        <div class="news">
+          <h2>News</h2>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+      </a>
+      <a target="_blank" href="/career">
+        <div class="advice">
+          <h2>Advice</h2>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <a target="_blank" href="/mail">
+    <div class="mail">
+      <h2>Mail</h2>
+  <div class="email-form">
+    <form>
+        <label for="to">To:</label>
+        <input type="email" id="to" name="to" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</div>
+  {% endblock %}

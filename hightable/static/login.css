@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Login Page*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #A2A2A2;
+}
+
+.container {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  padding: 16px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.container div{
+  margin: auto;
+}
+
+.a {
+  color: #000000;
+}
+
+.container input[type=text], .container input[type=password] {
+  width: 15vw;
+  height: 3vh;
+  padding: 15px;
+  font-size: 2vh;
+  margin: 5px 0 22px 0;
+  display: table;
+  border: none;
+  background: #f1f1f1;
+}
+
+.container button {
+  background-color: #161616;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container button:hover {
+  background-color: #353535;
+}

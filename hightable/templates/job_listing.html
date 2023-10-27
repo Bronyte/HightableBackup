@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block title %}Job Placements{% endblock %} 
+
+{% block content %}
+<div class = "container">
+  <h1 align="center">Job Placements</h1>
+  <ul class="list-group">
+
+  </ul>
+  
+  <form method="POST">
+    <label><b>Job title:</b></label>
+    <input 
+      type="text" 
+      placeholder="Enter job title" 
+      name="jobtitle" 
+      id="jobtitle"
+      required>
+    <label><b>Company:</b></label>
+    <input 
+      type="text"
+      placeholder="Enter company name" 
+      name="company" 
+      id="company"
+      required>
+    <br />
+    <textarea name="description" id="description" class="form-control"></textarea>
+    <br />
+    <div align="center">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+{% endblock %}

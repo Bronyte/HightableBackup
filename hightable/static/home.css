@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #7E7E7E
+}
+.banner{
+	width: 100%;
+	height: auto;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	background-color: #393939;
+}
+.search-container {
+  display: flex;
+  height: 30px;
+  width: 500px;
+  margin-top: 25px;	
+  margin-left: 200px;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+#search-bar {
+  border: none;
+  padding: 5px;
+  width: 700px;
+}
+
+#search-button {
+  margin-left: 250px;
+  background-color: #888888;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #3D3D3D;
+}
+
+.ul a{
+	color: white;
+	margin-left: 95px;
+}
+
+.collapsProfile{
+  margin-right: 400px;
+  border: none;
+  border-radius: 50%;
+  padding:0;
+  display: inline-block;
+  font-size: 0px;
+  position: absolute;
+  float: left;
+
+}
+
+.contentProfile{
+	margin-left: 1350px;
+	width: 25%;
+	height: 750px;
+	background-color:#000000;
+}
+.ProfileText{
+	color:white;
+	text-align: center;
+}
+.ProfilePicture{
+	padding-top: 20px;
+	padding-left: 210px;
+
+}
+.LogOutBTN{
+	display: inline-block;
+	cursor: pointer;
+    text-align: center;
+	border: none;
+	margin-top: 500px;
+}
+.EditProfile{
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	padding-left: 210px;
+	border: none;
+}.AboveBTN{
+	
+	width: 460px;
+	border: 1px solid white; /* Style and color of the line */
+    margin-top: 100px; /*margin for positioning */
+}
+
+.content{
+	width: auto;
+	height: auto;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.jobs{
+	border: 2px solid #515151;
+	width: 480px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+a{
+	padding: auto;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+.na{
+	margin-left: 50px;
+	display: flex;
+}
+.news{
+	border: 2px solid #515151;
+	width: 200px;
+	height: 400px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+
+.advice{
+	margin-left: 20px;
+	border: 2px solid #515151;
+	width: 200px;
+	height: 400px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+.gallery{
+	margin-left: 100px;
+	margin-top: 20px;
+	border: 2px solid #515151;
+	width: 958px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+
+.mail{
+	overflow: auto;
+	margin-left: 100px;
+	margin-top: 20px;
+	border: 2px solid #515151;
+	width: 958px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+.email-form {
+	max-width: 600px;
+	margin: auto;
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.email-form label,
+.email-form textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.email-form textarea {
+	height: 200px;
+	resize: vertical;
+}
+.email-form button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
